@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripta y Desencripta | ONE - Alura</title>
+    <!-- google font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/Logo.png" alt="Alura logo" class="logo">
+    </header>
+    <main>
+        <section class="encrypt flex-center">
+            <div>
+                <textarea id="text_area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                <h6 class="info">Solo letras minusculas y sin acentos</h6>
+                <div class="options">
+                    <button id="btn_encrypt" class="btn btn--dark-blue">Encriptar</button>
+                    <button id="btn_decrypt" class="btn btn--outline">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+        <section class="decrypt">
+            <textarea id="message" cols="20" rows="5" disabled></textarea>
+            <div class="text-info">
+                <h2>Ningun mensaje fue encontrado</h2>
+                <p>Ingrese el texto que desea encryptar o Desencriptar</p>
+            </div>
+            
+        </section>
+
+    </main>
+</body>
+</html>
